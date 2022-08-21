@@ -10,6 +10,6 @@
             this.Value = value;
         }
 
-        public CollidableMobility Value { get; }
+        public CollidableMobility Value { get; set; }
     }
 }

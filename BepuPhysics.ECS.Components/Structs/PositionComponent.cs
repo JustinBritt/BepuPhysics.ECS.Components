@@ -10,6 +10,6 @@
             this.Value = value;
         }
 
-        public Vector3 Value { get; }
+        public Vector3 Value { get; set; }
     }
 }

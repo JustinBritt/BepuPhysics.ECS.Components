@@ -10,6 +10,6 @@
             this.Value = value;
         }
 
-        public IShape Value { get; }
+        public IShape Value { get; set; }
     }
 }

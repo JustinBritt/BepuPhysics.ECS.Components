@@ -8,6 +8,6 @@
             this.Value = value;
         }
 
-        public float Value { get; }
+        public float Value { get; set; }
     }
 }

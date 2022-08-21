@@ -10,6 +10,6 @@
             this.Value = value;
         }
 
-        public Simulation Value { get; }
+        public Simulation Value { get; set; }
     }
 }
