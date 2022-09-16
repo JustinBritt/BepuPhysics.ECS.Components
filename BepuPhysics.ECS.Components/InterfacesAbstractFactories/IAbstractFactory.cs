@@ -13,6 +13,10 @@
 
         IMassComponentFactory CreateMassComponentFactory();
 
+        IMaximumSpeculativeMarginComponentFactory CreateMaximumSpeculativeMarginComponentFactory();
+
+        IMinimumSpeculativeMarginComponentFactory CreateMinimumSpeculativeMarginComponentFactory();
+
         IPositionComponentFactory CreatePositionComponentFactory();
 
         IShapeComponentFactory CreateShapeComponentFactory();

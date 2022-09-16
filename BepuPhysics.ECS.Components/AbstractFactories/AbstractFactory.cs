@@ -77,6 +77,36 @@
             return factory;
         }
 
+        public IMaximumSpeculativeMarginComponentFactory CreateMaximumSpeculativeMarginComponentFactory()
+        {
+            IMaximumSpeculativeMarginComponentFactory factory = null;
+
+            try
+            {
+                factory = new MaximumSpeculativeMarginComponentFactory();
+            }
+            finally
+            {
+            }
+
+            return factory;
+        }
+
+        public IMinimumSpeculativeMarginComponentFactory CreateMinimumSpeculativeMarginComponentFactory()
+        {
+            IMinimumSpeculativeMarginComponentFactory factory = null;
+
+            try
+            {
+                factory = new MinimumSpeculativeMarginComponentFactory();
+            }
+            finally
+            {
+            }
+
+            return factory;
+        }
+
         public IPositionComponentFactory CreatePositionComponentFactory()
         {
             IPositionComponentFactory factory = null;
