@@ -181,5 +181,20 @@
 
             return factory;
         }
+
+        public ITShapeComponentFactory CreateTShapeComponentFactory()
+        {
+            ITShapeComponentFactory factory = null;
+
+            try
+            {
+                factory = new TShapeComponentFactory();
+            }
+            finally
+            {
+            }
+
+            return factory;
+        }
     }
 }

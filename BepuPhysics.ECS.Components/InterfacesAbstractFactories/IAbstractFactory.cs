@@ -26,5 +26,7 @@
         ISleepThresholdComponentFactory CreateSleepThresholdComponentFactory();
 
         ISpeculativeMarginComponentFactory CreateSpeculativeMarginComponentFactory();
+
+        ITShapeComponentFactory CreateTShapeComponentFactory();
     }
 }
